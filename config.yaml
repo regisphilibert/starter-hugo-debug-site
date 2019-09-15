@@ -1,0 +1,12 @@
+baseURL: "https://starter-hugo-debug-site.netlify.com/"
+languageCode: "en-us"
+title: "Debug"
+disableKinds: ["taxonomy", "taxonomyTerm"]
+enableGitinfo: true
+module:
+- disable: false
+  ignoreConfig: true
+  path: github.com/regisphilibert/mod-content-test
+  mounts:
+  - source: content/test
+    target: content/note

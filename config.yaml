@@ -3,6 +3,7 @@ languageCode: "en-us"
 title: "Debug"
 disableKinds: ["taxonomy", "taxonomyTerm"]
 enableGitinfo: true
+theme: github.com/regisphilibert/rp_hugo_theme
 module:
 - disable: false
   ignoreConfig: true
